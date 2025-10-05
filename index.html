@@ -671,7 +671,22 @@
             color: white;
             box-shadow: 0 8px 25px rgba(230, 104, 60, 0.4);
         }
+         .footer {
+            background: black;
+            color: rgba(165, 159, 159, 0.8);
+            text-align: center;
+            wiidth:100%;
+            margin-top:100px;
+            margin-bottom:0;
+            display:flex;
+            justify-content:center;
+    }
 
+        .footer p {
+            margin: 0;
+            font-size: var(--font-size-sm);
+            color:rgb(142, 138, 138);
+    }
         /* Star positioning */
         .star:nth-child(1) { top: 20%; left: 10%; animation-delay: 0s; }
         .star:nth-child(2) { top: 40%; left: 20%; animation-delay: 0.5s; }
@@ -843,6 +858,7 @@
                 justify-content: center;
             }
         }
+        
 
         /* Small Mobile Devices (481px - 768px) */
         @media (min-width: 481px) and (max-width: 768px) {
@@ -1365,6 +1381,12 @@
                 </a>
             </div>
         </div>
+          <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Divyam Rathore. All rights reserved.</p>
+        </div>
+    </footer>
     </section>
 </body>
 </html>
+
